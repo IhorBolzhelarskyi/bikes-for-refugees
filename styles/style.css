@@ -23,6 +23,13 @@ button {
   color: var(--grey-dark);
   font-size: 1rem;
 }
+#difButton {
+  color: #c05326;
+  background-color: white;
+}
+.buttons {
+  display: flex;
+}
 
 button {
   background-color: aqua;
@@ -128,6 +135,30 @@ header {
   background-image: url("../images/header-bike.jpg");
   object-fit: cover;
   height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 35px;
+  button {
+    width: fit-content;
+    padding: 8px;
+    background-color: var(--orange-dark);
+    color: var(--white);
+    border-radius: 7px;
+  }
+  p,
+  h1 {
+    color: var(--white);
+  }
+}
+#headButton {
+  width: fit-content;
+  padding: 8px;
+  background-color: var(--orange-dark);
+  color: var(--white);
+  border-radius: 7px;
+  border: 1px solid;
+  padding: 7px 10px;
 }
 
 .hero h1 {
