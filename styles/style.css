@@ -324,6 +324,7 @@ button:hover {
   background-color: var(--orange-dark);
   color: var(--white);
 }
-#headButton:hover{
+#headButton:hover {
   background-color: var(--white);
   color: var(--orange-dark);
+}
