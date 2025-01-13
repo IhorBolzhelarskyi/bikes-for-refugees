@@ -311,3 +311,19 @@ header {
     padding-right: 2rem;
   }
 }
+
+/*hover*/
+nav a:hover {
+  background-color: orange;
+}
+button:hover {
+  background-color: var(--white);
+  color: var(--orange-dark);
+}
+#difButton:hover {
+  background-color: var(--orange-dark);
+  color: var(--white);
+}
+#headButton:hover{
+  background-color: var(--white);
+  color: var(--orange-dark);
